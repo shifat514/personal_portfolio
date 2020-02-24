@@ -1,0 +1,108 @@
+section{
+    height: 600px;
+    padding-bottom: 400px;
+}
+body{
+    font-family: 'Roboto';
+    margin: 0px;
+}
+h1{
+    font-size: 40px;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+h2{
+    font-size: 60px;
+    color:rgb(191, 73, 116);
+    padding-left: 150px;
+}
+p{
+    font-size: 18px;
+    color: gray;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: justify;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+}
+.half-width img{
+    width:100%;
+}
+.link-button{
+
+    text-decoration: none;
+    background-image:linear-gradient(45deg, rgb(184, 38, 111),rgb(212, 37, 95)) ;
+    padding: 10px 20px;
+    border-radius: 5px ;
+    color: white;
+    font-weight: 700;
+    margin-left: 20%;
+
+}
+.part-one{
+    background-image: url("header-bg.png");
+  
+    background-repeat: no-repeat;
+}
+.part-two{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+}
+.images img{
+    width:20%;
+    float:left;
+    margin-left: 230px;
+    
+    padding-left:10px;
+    
+}
+.part-three{
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 40px;
+}
+.segment{
+    text-align: center;
+}
+#client{
+    text-align: center;
+}
+#bruce{
+    margin-left: 9%;
+}
+#ceo{
+    text-align: inherit;
+    padding-left: 80px;
+}
+.box{
+    text-align: center;
+    padding-left: 400px;
+    background-image:linear-gradient(45deg, rgb(184, 38, 111),rgb(212, 37, 95)) ;
+    padding: 20px;
+    margin-left: 750px;
+    width: 500px;
+    height:100px;
+    color: white;
+    border-radius:7px;
+
+}
+.part-four{
+    background-image: url("footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#email{
+    text-decoration: none;
+    color: white;
+    text-weight: 700px;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 100px;
+}
